@@ -32,7 +32,7 @@ const staff = new mongoose.Schema(
       type: String,
     },
     phoneNumber: {
-      type: Number,
+      type: String,
     },
 
     guardian: {
@@ -43,7 +43,7 @@ const staff = new mongoose.Schema(
         type: String,
       },
       phone: {
-        type: Number,
+        type: String,
       },
     },
     employmentType: {
